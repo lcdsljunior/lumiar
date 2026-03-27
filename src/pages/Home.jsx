@@ -15,7 +15,7 @@ export default function Home() {
         {/* Card Sublimação */}
         <div className="card" onClick={() => navigate('/sublimacao')}>
           <div className="video-wrapper">
-            <video src="../public/sublimacao.mp4" autoPlay loop muted playsInline />
+            <video src="../assets/sublimacao.mp4" autoPlay loop muted playsInline />
           </div>
           <div className="card-content">
             <h2>Sublimação</h2>
@@ -26,7 +26,7 @@ export default function Home() {
         {/* Card 3D */}
         <div className="card" onClick={() => navigate('/3d')}>
           <div className="video-wrapper">
-            <video src="../public/3d.mp4" autoPlay loop muted playsInline />
+            <video src="../assets/3d.mp4" autoPlay loop muted playsInline />
           </div>
           <div className="card-content">
             <h2>Impressão 3D</h2>

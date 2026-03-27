@@ -39,19 +39,19 @@ export default function Sublimacao() {
             {/* Exemplo 1: Caneca */}
             {/* Lembre-se: As imagens devem estar na pasta 'public' do Vite */}
             <div className="gallery-item">
-              <img src="./public/1.png" alt="Caneca Lumiar Personalizada" />
+              <img src="../assets/1.png" alt="Caneca Lumiar Personalizada" />
               <h4>Etiqueta Escolares</h4>
             </div>
 
             {/* Exemplo 2: Camisa */}
             <div className="gallery-item">
-              <img src="./public/2.png" alt="Camisa com estampa exclusiva" />
+              <img src="./assets/2.png" alt="Camisa com estampa exclusiva" />
               <h4>Kit Completo</h4>
             </div>
 
             {/* Exemplo 3: Almofada */}
             <div className="gallery-item">
-              <img src="./public/3.png" alt="Almofada decorativa Lumiar" />
+              <img src="../assets/3.png" alt="Almofada decorativa Lumiar" />
               <h4>Etiquetas Personalizadas</h4>
             </div>
 
