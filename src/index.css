@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+:root {
+  /* Colors - Sofisticado e elegante */
+  --primary: #6b4d5c;         /* Roxo escuro elegante */
+  --primary-light: #8b6d7c;   /* Roxo médio */
+  --accent: #d4af8b;          /* Dourado suave */
+  --accent-dark: #b89968;     /* Dourado escuro */
+  --text: #2d2d2d;            /* Texto escuro */
+  --text-light: #666666;      /* Texto secundário */
+  --text-lighter: #999999;    /* Texto terciário */
+  --bg: #fafaf8;              /* Fundo quasi-branco */
+  --bg-light: #f5f3f0;        /* Fundo suave */
+  --white: #ffffff;           /* Branco puro */
+  --border: #e8e6e1;          /* Borda suave */
+  --shadow: rgba(0, 0, 0, 0.05);
+  --shadow-md: rgba(0, 0, 0, 0.08);
+  --shadow-lg: rgba(0, 0, 0, 0.12);
+  
+  /* Transições */
+  --transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-fast: all 0.2s ease-out;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--bg);
+  font-family: 'Poppins', sans-serif;
+  color: var(--text);
+  line-height: 1.6;
+  letter-spacing: 0.3px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: var(--transition-fast);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Playfair Display', serif;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+}
+
+h1 {
+  font-size: 3.5rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.4rem;
+}
+
+button {
+  font-family: 'Poppins', sans-serif;
+  cursor: pointer;
+  border: none;
+  transition: var(--transition-fast);
+}
